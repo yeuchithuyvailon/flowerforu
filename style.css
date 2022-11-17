@@ -1,0 +1,73 @@
+body {
+    background: #131b21;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 800px;
+    position: relative;
+
+  }
+
+  .header-container { 
+    max-width: 800px;
+    margin: auto;
+    top: 30%;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: rgb(195, 107, 216);
+    vertical-align: center;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    text-shadow: 3px , 3px rgba( 41, 29 ,29  );
+    animation: textFly 43s forwards;
+  
+  }
+
+
+  .header-container h2{ 
+    text-align: center;
+    color: rgb(195, 107, 216);
+    vertical-align: center;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    text-shadow: 3px , 3px rgba( 41, 29 ,29  );
+    
+  }
+
+
+
+  @keyframes textFly { 
+    from { 
+      opacity: 0;
+    }
+
+    to { 
+      opacity: 6;
+    }
+  }
+  
+  svg#flower-frame {
+    height: 90vh;
+    width: 100%;
+  }
+  
+  
+  
+  #Footer_group_1_,
+  [id^=PinkFlowerGroup],
+  [id^=BaseGroup] path,
+  [id^=LeafGroup] path,
+  path[id^=Stroke],
+  g[id^=BudGroup] g[id^=BudGroup] g[id^=Bud],
+  #Bud8_1_,
+  #Bud10_1_,
+  #Bud23_1_,
+  #Bud26_1_,
+  [id^=Dots],
+  [id^=Flourish] {
+    visibility: hidden;
+  }
